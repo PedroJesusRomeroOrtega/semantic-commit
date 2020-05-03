@@ -16,10 +16,12 @@ I used to test Commitizen, Husky, Commitlint, Conventional changelog and Convent
   }
    ```
 3. Install [Visual Studio Code Commitizen extension](https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-commitizen)
-4. Use [Angular Convention](https://github.com/conventional-changelog/conventional-changelog/blob/master/packages/conventional-changelog-angular/README.md#angular-convention)
-5. Install [standard-version](https://github.com/conventional-changelog/standard-version#installing-standard-version)
-6. 
-7. 
+4. Install [Angular CommitLint](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-angular)
+5. Install [Husky](https://commitlint.js.org/#/guides-local-setup?id=install-husky) to allow git hook with Commitlint
+6. Use [Angular Convention](https://github.com/conventional-changelog/conventional-changelog/blob/master/packages/conventional-changelog-angular/README.md#angular-convention)
+7. Install [standard-version](https://github.com/conventional-changelog/standard-version#installing-standard-version)
+8. 
+9. 
 
 ## References
 
