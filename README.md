@@ -13,15 +13,17 @@ I used to test Commitizen, Husky, Commitlint, Conventional changelog and Convent
    ```
    "scripts": {
     "cm": "git-cz"
-  }
+   }
    ```
 3. Install [Visual Studio Code Commitizen extension](https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-commitizen)
 4. Install [Angular CommitLint](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-angular)
 5. Install [Husky](https://commitlint.js.org/#/guides-local-setup?id=install-husky) to allow git hook with Commitlint
 6. Use [Angular Convention](https://github.com/conventional-changelog/conventional-changelog/blob/master/packages/conventional-changelog-angular/README.md#angular-convention)
-7. Install [standard-version](https://github.com/conventional-changelog/standard-version#installing-standard-version)
-8. 
-9. 
+7. Install [Standard-version](https://github.com/conventional-changelog/standard-version#installing-standard-version)
+8. First release for Changelog use `npm run release -- --first-release` and the following releases `npm run release`
+9. You can try `npm run release -- --dry-run` to look what is going to happen
+
+> [Squash](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) your commits before doing pullrequest or genereating new releases
 
 ## References
 
