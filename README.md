@@ -1,6 +1,7 @@
 # SemanticCommit
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
+
 I used to test Commitizen, Husky, Commitlint, Conventional changelog and Conventional Commits to generate automatically a Changelog file and better git history
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
@@ -8,20 +9,20 @@ I used to test Commitizen, Husky, Commitlint, Conventional changelog and Convent
 ## Steps
 
 1. Ensure you have [python](https://www.python.org/) installed.
-1. Install [Commitizen locally](https://github.com/commitizen/cz-cli#optional-install-and-run-commitizen-locally)
-2. Add commit script to package.json:
+2. Install [Commitizen locally](https://github.com/commitizen/cz-cli#optional-install-and-run-commitizen-locally)
+3. Add commit script to package.json:
    ```
    "scripts": {
     "cm": "git-cz"
    }
    ```
-3. Install [Visual Studio Code Commitizen extension](https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-commitizen)
-4. Install [Angular CommitLint](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-angular)
-5. Install [Husky](https://commitlint.js.org/#/guides-local-setup?id=install-husky) to allow git hook with Commitlint
-6. Use [Angular Convention](https://github.com/conventional-changelog/conventional-changelog/blob/master/packages/conventional-changelog-angular/README.md#angular-convention)
-7. Install [Standard-version](https://github.com/conventional-changelog/standard-version#installing-standard-version)
-8. First release for Changelog use `npm run release -- --first-release` and the following releases `npm run release`
-9. You can try `npm run release -- --dry-run` to look what is going to happen
+4. Install [Visual Studio Code Commitizen extension](https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-commitizen)
+5. Install [Angular CommitLint](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-angular)
+6. Install [Husky](https://commitlint.js.org/#/guides-local-setup?id=install-husky) to allow git hook with Commitlint
+7. Use [Angular Convention](https://github.com/conventional-changelog/conventional-changelog/blob/master/packages/conventional-changelog-angular/README.md#angular-convention)
+8. Install [Standard-version](https://github.com/conventional-changelog/standard-version#installing-standard-version)
+9. First release for Changelog use `npm run release -- --first-release` and the following releases `npm run release`
+10. You can try `npm run release -- --dry-run` to look what is going to happen
 
 > [Squash](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) your commits before doing pullrequest or genereating new releases
 
@@ -34,6 +35,10 @@ I used to test Commitizen, Husky, Commitlint, Conventional changelog and Convent
 * [Angular commit message guidelines](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-guidelines)
 * [Release management in Angular with Lerna](https://indepth.dev/release-management-in-angular-with-lerna/)
 * [nxg-semantic-version](https://github.com/d-koppenhagen/ngx-semantic-version)
+
+## Disclaimer
+
+For the first three commits I should have use *chore* type instead of *feat*
 
 ## Development server
 
